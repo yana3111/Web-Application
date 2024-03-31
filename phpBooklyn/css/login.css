@@ -1,0 +1,164 @@
+body
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	/*background:#000 !important;*/
+	background:#FFFBF0;
+    
+}
+.h1{
+  margin:20px;
+}
+
+.affix
+{
+	top:0;
+	z-index:999 !important;
+	width:100%;
+    background:blue;
+}
+
+/*navigation styling start*/
+.navbar
+{
+	padding-top:0;
+	background:#B6AC8F
+    !important;
+	margin:0 !important;
+	border:none !important;
+	border-top:1px solid transparent !important;
+	overflow:hidden;
+
+}
+
+ul.navbar-nav
+{
+	margin-left:30px;
+}
+ul.navbar-nav li
+{
+	margin-left:2px;
+}
+ul.navbar-nav li a
+{
+	color:white!important;
+	font-size:16px;
+	/*padding-left:0px;*/
+	border-radius:5%;
+	font-weight:550;
+}
+ul.navbar-nav li.active a
+{
+	color:black !important;
+	background:white !important;
+}
+ul.navbar-nav li:hover a
+{
+	color:black !important;
+	background:white !important;
+}
+.navbar-header ul li a img
+{
+	position:relative;
+	width:100%;
+	height:50px;
+	top:-14px;
+	border-radius:50%;
+	transform:scale(1.2);
+	margin-right:5px;
+	border:1px solid #fff;
+}
+
+/*navigation ends*/
+/* footer.css */
+.footer {
+    background-color: #B6AC8F
+    ;
+    color:black;
+    ;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    height:100px;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  /*footer ends*/
+  .body
+  {
+      margin:0;
+      background-color:#03a9f4;
+      /*background:url(../res/img/infinity_war_wallpaper.jpg);*/
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-attachment:fixed;
+  }
+
+    
+    .container{
+        width:700px;
+        background:rgba(255,255,142,0.7);
+        background:rgba(0,0,0,0.5);
+        background:rgba(255,255,255,0.7);
+
+        padding-bottom:50px;
+        padding-top:30px;
+        border-radius:2%;
+    }
+    .heading{
+        background:blue;
+        /*background:gray;*/
+        color:white;
+        padding:15px;
+        margin:0 25px 35px 25px;
+        border-radius:2%;
+        background:#BC8F8F;
+          }
+    .heading h1
+    {
+        padding:0;
+        margin:0;
+        color:#ffffff
+    }
+    .submit
+    {
+        border:2px solid blue;
+        color:blue;
+        background:white;
+        border-radius:50px;
+        font-weight:600;
+    }
+    .submit:hover{
+        background:blue;
+        color:white;
+        background:linear-gradient(#1D4350,#A43931,#BE5869);
+        border-color:transparent;
+    }
+    .fa{
+        font-size:40px;
+        margin-left:2px;
+        margin-right:3px;
+        padding:2px;
+    }
+    .fa-facebook{
+        color:#3b5998;
+    }
+    .fa-twitter{
+        color:#1da1f2;
+    }
+    .fa-google{
+        color:#dd4b39;
+    } 
